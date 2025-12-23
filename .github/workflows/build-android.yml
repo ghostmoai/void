@@ -23,7 +23,14 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y git zip unzip openjdk-11-jdk wget
-        pip install --upgrade buildozer cython==0.29.36
+        pip install --upgrade buildozer cython==0.29.36 pyarmor
+    
+    - name: Obfuscate code
+      run: |
+        # Ofuscar archivos Python principales
+        pyarmor obfuscate --recursive --no-cross-protection main.py
+        mv dist/* .
+        rm -rf dist
     
     - name: Build APK
       run: |

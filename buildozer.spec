@@ -121,6 +121,12 @@ android.minapi = 21
 # (list) Android app theme, default is ok for Kivy-based app
 #android.apptheme = "@android:style/Theme.NoTitleBar"
 
+# (bool) Enable ProGuard to obfuscate the APK
+android.enable_proguard = True
+
+# (bool) Enable AndroidX support
+android.enable_androidx = True
+
 # (list) Whitelist of allowed domains (android.permissions = INTERNET)
 #android.whitelist =
 
