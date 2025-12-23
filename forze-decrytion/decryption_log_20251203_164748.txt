@@ -1,0 +1,272 @@
+================================================================================
+null-Encrypter AI Decryption Log
+Started: 2025-12-03 16:47:48
+TIME LIMIT: 0.05 minutes
+================================================================================
+
+[    0.00s] [START  ] Starting AI-powered decryption process...
+[    0.00s] [INFO   ] Encrypted text length: 753 characters
+[    0.00s] [INFO   ] First 50 chars: Ñ18cWnk3zjFkn6716Fllul12anulN57WjCW8zqhBo7e-AQ3ul3...
+[    0.00s] [METHOD ] 
+============================================================
+[    0.00s] [METHOD ] Starting Method: Embedded Key Extraction
+[    0.00s] [METHOD ] Description: Attempts to extract and use the key embedded in the encrypted message
+[    0.00s] [METHOD ] ============================================================
+[    0.00s] [ATTEMPT] Attempt #1 | Method: Embedded Key | Key: Extracted from message | ❌ FAILED
+[    0.00s] [METHOD ] 
+============================================================
+[    0.00s] [METHOD ] Starting Method: Default System Key
+[    0.00s] [METHOD ] Description: Attempts decryption using the default system key
+[    0.00s] [METHOD ] ============================================================
+[    0.00s] [ATTEMPT] Attempt #2 | Method: Default Key | Key: tω$TjO|"+"Es^z$K | ❌ FAILED
+[    0.00s] [METHOD ] 
+============================================================
+[    0.00s] [METHOD ] Starting Method: Common Keys Database
+[    0.00s] [METHOD ] Description: Testing against a database of commonly used encryption keys
+[    0.00s] [METHOD ] ============================================================
+[    0.00s] [ATTEMPT] Attempt #3 | Method: Common Key | Key: Sequential hex: 0123456789ABCDEF0123456789ABCDEF | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #4 | Method: Common Key | Key: All A's: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #5 | Method: Common Key | Key: All zeros: 00000000000000000000000000000000 | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #6 | Method: Common Key | Key: All ones: 11111111111111111111111111111111 | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #7 | Method: Common Key | Key: Password pattern: password1234567890password123456 | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #8 | Method: Common Key | Key: App name: nullencrypternullencrypternullen | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #9 | Method: Common Key | Key: Admin pattern: admin123admin123admin123admin123 | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #10 | Method: Common Key | Key: Keyboard pattern: qwertyuiopqwertyuiopqwertyuiopqw | ❌ FAILED
+[    0.00s] [METHOD ] 
+============================================================
+[    0.00s] [METHOD ] Starting Method: Pattern Analysis
+[    0.00s] [METHOD ] Description: Analyzes the encrypted message structure to generate potential keys
+[    0.00s] [METHOD ] ============================================================
+[    0.00s] [ATTEMPT] Attempt #11 | Method: Pattern Analysis | Key: SHA256 hash of encrypted text | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #12 | Method: Pattern Analysis | Key: MD5 hash of encrypted text | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #13 | Method: Pattern Analysis | Key: First 32 chars of encrypted text | ❌ FAILED
+[    0.00s] [METHOD ] 
+============================================================
+[    0.00s] [METHOD ] Starting Method: Dictionary Attack
+[    0.00s] [METHOD ] Description: Testing up to 1000 common words and phrases
+[    0.00s] [METHOD ] ============================================================
+[    0.00s] [ATTEMPT] Attempt #14 | Method: Dictionary | Key: Word: password | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #15 | Method: Dictionary | Key: Word: PASSWORD | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #16 | Method: Dictionary | Key: Word: Password | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #17 | Method: Dictionary | Key: Word: password123 | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #18 | Method: Dictionary | Key: Word: password2024 | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #19 | Method: Dictionary | Key: Word: password2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #20 | Method: Dictionary | Key: Word: admin | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #21 | Method: Dictionary | Key: Word: ADMIN | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #22 | Method: Dictionary | Key: Word: Admin | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #23 | Method: Dictionary | Key: Word: admin123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #24 | Method: Dictionary | Key: Word: admin2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #25 | Method: Dictionary | Key: Word: admin2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #26 | Method: Dictionary | Key: Word: root | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #27 | Method: Dictionary | Key: Word: ROOT | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #28 | Method: Dictionary | Key: Word: Root | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #29 | Method: Dictionary | Key: Word: root123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #30 | Method: Dictionary | Key: Word: root2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #31 | Method: Dictionary | Key: Word: root2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #32 | Method: Dictionary | Key: Word: user | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #33 | Method: Dictionary | Key: Word: USER | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #34 | Method: Dictionary | Key: Word: User | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #35 | Method: Dictionary | Key: Word: user123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #36 | Method: Dictionary | Key: Word: user2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #37 | Method: Dictionary | Key: Word: user2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #38 | Method: Dictionary | Key: Word: test | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #39 | Method: Dictionary | Key: Word: TEST | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #40 | Method: Dictionary | Key: Word: Test | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #41 | Method: Dictionary | Key: Word: test123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #42 | Method: Dictionary | Key: Word: test2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #43 | Method: Dictionary | Key: Word: test2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #44 | Method: Dictionary | Key: Word: demo | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #45 | Method: Dictionary | Key: Word: DEMO | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #46 | Method: Dictionary | Key: Word: Demo | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #47 | Method: Dictionary | Key: Word: demo123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #48 | Method: Dictionary | Key: Word: demo2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #49 | Method: Dictionary | Key: Word: demo2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #50 | Method: Dictionary | Key: Word: secret | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #51 | Method: Dictionary | Key: Word: SECRET | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #52 | Method: Dictionary | Key: Word: Secret | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #53 | Method: Dictionary | Key: Word: secret123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #54 | Method: Dictionary | Key: Word: secret2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #55 | Method: Dictionary | Key: Word: secret2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #56 | Method: Dictionary | Key: Word: encryption | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #57 | Method: Dictionary | Key: Word: ENCRYPTION | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #58 | Method: Dictionary | Key: Word: Encryption | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #59 | Method: Dictionary | Key: Word: encryption123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #60 | Method: Dictionary | Key: Word: encryption2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #61 | Method: Dictionary | Key: Word: encryption2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #62 | Method: Dictionary | Key: Word: decryption | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #63 | Method: Dictionary | Key: Word: DECRYPTION | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #64 | Method: Dictionary | Key: Word: Decryption | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #65 | Method: Dictionary | Key: Word: decryption123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #66 | Method: Dictionary | Key: Word: decryption2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #67 | Method: Dictionary | Key: Word: decryption2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #68 | Method: Dictionary | Key: Word: null | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #69 | Method: Dictionary | Key: Word: NULL | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #70 | Method: Dictionary | Key: Word: Null | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #71 | Method: Dictionary | Key: Word: null123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #72 | Method: Dictionary | Key: Word: null2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #73 | Method: Dictionary | Key: Word: null2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #74 | Method: Dictionary | Key: Word: encrypter | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #75 | Method: Dictionary | Key: Word: ENCRYPTER | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #76 | Method: Dictionary | Key: Word: Encrypter | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #77 | Method: Dictionary | Key: Word: encrypter123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #78 | Method: Dictionary | Key: Word: encrypter2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #79 | Method: Dictionary | Key: Word: encrypter2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #80 | Method: Dictionary | Key: Word: key | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #81 | Method: Dictionary | Key: Word: KEY | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #82 | Method: Dictionary | Key: Word: Key | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #83 | Method: Dictionary | Key: Word: key123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #84 | Method: Dictionary | Key: Word: key2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #85 | Method: Dictionary | Key: Word: key2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #86 | Method: Dictionary | Key: Word: master | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #87 | Method: Dictionary | Key: Word: MASTER | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #88 | Method: Dictionary | Key: Word: Master | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #89 | Method: Dictionary | Key: Word: master123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #90 | Method: Dictionary | Key: Word: master2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #91 | Method: Dictionary | Key: Word: master2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #92 | Method: Dictionary | Key: Word: default | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #93 | Method: Dictionary | Key: Word: DEFAULT | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #94 | Method: Dictionary | Key: Word: Default | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #95 | Method: Dictionary | Key: Word: default123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #96 | Method: Dictionary | Key: Word: default2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #97 | Method: Dictionary | Key: Word: default2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #98 | Method: Dictionary | Key: Word: system | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #99 | Method: Dictionary | Key: Word: SYSTEM | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #100 | Method: Dictionary | Key: Word: System | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #101 | Method: Dictionary | Key: Word: system123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #102 | Method: Dictionary | Key: Word: system2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #103 | Method: Dictionary | Key: Word: system2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #104 | Method: Dictionary | Key: Word: private | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #105 | Method: Dictionary | Key: Word: PRIVATE | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #106 | Method: Dictionary | Key: Word: Private | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #107 | Method: Dictionary | Key: Word: private123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #108 | Method: Dictionary | Key: Word: private2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #109 | Method: Dictionary | Key: Word: private2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #110 | Method: Dictionary | Key: Word: public | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #111 | Method: Dictionary | Key: Word: PUBLIC | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #112 | Method: Dictionary | Key: Word: Public | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #113 | Method: Dictionary | Key: Word: public123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #114 | Method: Dictionary | Key: Word: public2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #115 | Method: Dictionary | Key: Word: public2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #116 | Method: Dictionary | Key: Word: secure | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #117 | Method: Dictionary | Key: Word: SECURE | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #118 | Method: Dictionary | Key: Word: Secure | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #119 | Method: Dictionary | Key: Word: secure123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #120 | Method: Dictionary | Key: Word: secure2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #121 | Method: Dictionary | Key: Word: secure2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #122 | Method: Dictionary | Key: Word: crypto | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #123 | Method: Dictionary | Key: Word: CRYPTO | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #124 | Method: Dictionary | Key: Word: Crypto | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #125 | Method: Dictionary | Key: Word: crypto123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #126 | Method: Dictionary | Key: Word: crypto2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #127 | Method: Dictionary | Key: Word: crypto2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #128 | Method: Dictionary | Key: Word: android | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #129 | Method: Dictionary | Key: Word: ANDROID | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #130 | Method: Dictionary | Key: Word: Android | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #131 | Method: Dictionary | Key: Word: android123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #132 | Method: Dictionary | Key: Word: android2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #133 | Method: Dictionary | Key: Word: android2025 | ❌ FAILED
+[    0.02s] [METHOD ] 
+============================================================
+[    0.02s] [METHOD ] Starting Method: Brute Force (PARALLEL - PISTAS APLICADAS)
+[    0.02s] [METHOD ] Description: Attempting up to 10000000 keys, starting with **ñ** and ending with **12**, using multiple CPU cores.
+[    0.02s] [METHOD ] ============================================================
+[    0.42s] [PROGRESS] Generated: 100000/10000000 keys (1%)
+[    0.81s] [PROGRESS] Generated: 200000/10000000 keys (2%)
+[    1.20s] [PROGRESS] Generated: 300000/10000000 keys (3%)
+[    1.60s] [PROGRESS] Generated: 400000/10000000 keys (4%)
+[    1.99s] [PROGRESS] Generated: 500000/10000000 keys (5%)
+[    2.38s] [PROGRESS] Generated: 600000/10000000 keys (6%)
+[    2.77s] [PROGRESS] Generated: 700000/10000000 keys (7%)
+[    3.16s] [PROGRESS] Generated: 800000/10000000 keys (8%)
+[    3.55s] [PROGRESS] Generated: 900000/10000000 keys (9%)
+[    3.94s] [PROGRESS] Generated: 1000000/10000000 keys (10%)
+[    4.33s] [PROGRESS] Generated: 1100000/10000000 keys (11%)
+[    4.72s] [PROGRESS] Generated: 1200000/10000000 keys (12%)
+[    5.11s] [PROGRESS] Generated: 1300000/10000000 keys (13%)
+[    5.50s] [PROGRESS] Generated: 1400000/10000000 keys (14%)
+[    5.89s] [PROGRESS] Generated: 1500000/10000000 keys (15%)
+[    6.28s] [PROGRESS] Generated: 1600000/10000000 keys (16%)
+[    6.70s] [PROGRESS] Generated: 1700000/10000000 keys (17%)
+[    7.14s] [PROGRESS] Generated: 1800000/10000000 keys (18%)
+[    7.56s] [PROGRESS] Generated: 1900000/10000000 keys (19%)
+[    7.96s] [PROGRESS] Generated: 2000000/10000000 keys (20%)
+[    8.36s] [PROGRESS] Generated: 2100000/10000000 keys (21%)
+[    8.76s] [PROGRESS] Generated: 2200000/10000000 keys (22%)
+[    9.18s] [PROGRESS] Generated: 2300000/10000000 keys (23%)
+[    9.59s] [PROGRESS] Generated: 2400000/10000000 keys (24%)
+[    9.99s] [PROGRESS] Generated: 2500000/10000000 keys (25%)
+[   10.39s] [PROGRESS] Generated: 2600000/10000000 keys (26%)
+[   10.80s] [PROGRESS] Generated: 2700000/10000000 keys (27%)
+[   11.20s] [PROGRESS] Generated: 2800000/10000000 keys (28%)
+[   11.59s] [PROGRESS] Generated: 2900000/10000000 keys (29%)
+[   11.99s] [PROGRESS] Generated: 3000000/10000000 keys (30%)
+[   12.39s] [PROGRESS] Generated: 3100000/10000000 keys (31%)
+[   14.52s] [PROGRESS] Generated: 3200000/10000000 keys (32%)
+[   14.92s] [PROGRESS] Generated: 3300000/10000000 keys (33%)
+[   15.31s] [PROGRESS] Generated: 3400000/10000000 keys (34%)
+[   15.71s] [PROGRESS] Generated: 3500000/10000000 keys (35%)
+[   16.11s] [PROGRESS] Generated: 3600000/10000000 keys (36%)
+[   16.51s] [PROGRESS] Generated: 3700000/10000000 keys (37%)
+[   16.91s] [PROGRESS] Generated: 3800000/10000000 keys (38%)
+[   17.31s] [PROGRESS] Generated: 3900000/10000000 keys (39%)
+[   17.72s] [PROGRESS] Generated: 4000000/10000000 keys (40%)
+[   18.11s] [PROGRESS] Generated: 4100000/10000000 keys (41%)
+[   18.50s] [PROGRESS] Generated: 4200000/10000000 keys (42%)
+[   18.90s] [PROGRESS] Generated: 4300000/10000000 keys (43%)
+[   19.31s] [PROGRESS] Generated: 4400000/10000000 keys (44%)
+[   19.73s] [PROGRESS] Generated: 4500000/10000000 keys (45%)
+[   20.11s] [PROGRESS] Generated: 4600000/10000000 keys (46%)
+[   20.48s] [PROGRESS] Generated: 4700000/10000000 keys (47%)
+[   20.86s] [PROGRESS] Generated: 4800000/10000000 keys (48%)
+[   21.24s] [PROGRESS] Generated: 4900000/10000000 keys (49%)
+[   21.61s] [PROGRESS] Generated: 5000000/10000000 keys (50%)
+[   21.99s] [PROGRESS] Generated: 5100000/10000000 keys (51%)
+[   22.38s] [PROGRESS] Generated: 5200000/10000000 keys (52%)
+[   22.76s] [PROGRESS] Generated: 5300000/10000000 keys (53%)
+[   23.14s] [PROGRESS] Generated: 5400000/10000000 keys (54%)
+[   23.53s] [PROGRESS] Generated: 5500000/10000000 keys (55%)
+[   23.90s] [PROGRESS] Generated: 5600000/10000000 keys (56%)
+[   24.28s] [PROGRESS] Generated: 5700000/10000000 keys (57%)
+[   24.66s] [PROGRESS] Generated: 5800000/10000000 keys (58%)
+[   25.04s] [PROGRESS] Generated: 5900000/10000000 keys (59%)
+[   25.41s] [PROGRESS] Generated: 6000000/10000000 keys (60%)
+[   25.81s] [PROGRESS] Generated: 6100000/10000000 keys (61%)
+[   26.21s] [PROGRESS] Generated: 6200000/10000000 keys (62%)
+[   26.62s] [PROGRESS] Generated: 6300000/10000000 keys (63%)
+[   27.02s] [PROGRESS] Generated: 6400000/10000000 keys (64%)
+[   27.42s] [PROGRESS] Generated: 6500000/10000000 keys (65%)
+[   27.82s] [PROGRESS] Generated: 6600000/10000000 keys (66%)
+[   28.20s] [PROGRESS] Generated: 6700000/10000000 keys (67%)
+[   28.58s] [PROGRESS] Generated: 6800000/10000000 keys (68%)
+[   28.96s] [PROGRESS] Generated: 6900000/10000000 keys (69%)
+[   29.34s] [PROGRESS] Generated: 7000000/10000000 keys (70%)
+[   29.73s] [PROGRESS] Generated: 7100000/10000000 keys (71%)
+[   30.11s] [PROGRESS] Generated: 7200000/10000000 keys (72%)
+[   30.49s] [PROGRESS] Generated: 7300000/10000000 keys (73%)
+[   30.88s] [PROGRESS] Generated: 7400000/10000000 keys (74%)
+[   31.27s] [PROGRESS] Generated: 7500000/10000000 keys (75%)
+[   31.66s] [PROGRESS] Generated: 7600000/10000000 keys (76%)
+[   32.05s] [PROGRESS] Generated: 7700000/10000000 keys (77%)
+[   32.43s] [PROGRESS] Generated: 7800000/10000000 keys (78%)
+[   32.81s] [PROGRESS] Generated: 7900000/10000000 keys (79%)
+[   33.19s] [PROGRESS] Generated: 8000000/10000000 keys (80%)
+[   33.57s] [PROGRESS] Generated: 8100000/10000000 keys (81%)
+[   33.97s] [PROGRESS] Generated: 8200000/10000000 keys (82%)
+[   34.37s] [PROGRESS] Generated: 8300000/10000000 keys (83%)
+[   34.79s] [PROGRESS] Generated: 8400000/10000000 keys (84%)
+[   35.20s] [PROGRESS] Generated: 8500000/10000000 keys (85%)
+[   35.60s] [PROGRESS] Generated: 8600000/10000000 keys (86%)
+[   35.99s] [PROGRESS] Generated: 8700000/10000000 keys (87%)
+[   36.38s] [PROGRESS] Generated: 8800000/10000000 keys (88%)
+[   36.77s] [PROGRESS] Generated: 8900000/10000000 keys (89%)
+[   37.16s] [PROGRESS] Generated: 9000000/10000000 keys (90%)
+[   37.55s] [PROGRESS] Generated: 9100000/10000000 keys (91%)
+[   37.94s] [PROGRESS] Generated: 9200000/10000000 keys (92%)
+[   38.32s] [PROGRESS] Generated: 9300000/10000000 keys (93%)
+[   38.71s] [PROGRESS] Generated: 9400000/10000000 keys (94%)
+[   39.10s] [PROGRESS] Generated: 9500000/10000000 keys (95%)
+[   39.49s] [PROGRESS] Generated: 9600000/10000000 keys (96%)
+[   39.88s] [PROGRESS] Generated: 9700000/10000000 keys (97%)
+[   40.27s] [PROGRESS] Generated: 9800000/10000000 keys (98%)
+[   40.65s] [PROGRESS] Generated: 9900000/10000000 keys (99%)
+[   41.04s] [INFO   ] Starting parallel execution with 12 cores and -38.04s timeout...

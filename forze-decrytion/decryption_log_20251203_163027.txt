@@ -1,0 +1,233 @@
+================================================================================
+null-Encrypter AI Decryption Log
+Started: 2025-12-03 16:30:27
+TIME LIMIT: 5.00 minutes
+================================================================================
+
+[    0.00s] [START  ] Starting AI-powered decryption process...
+[    0.00s] [INFO   ] Encrypted text length: 753 characters
+[    0.00s] [INFO   ] First 50 chars: Ñ18cWnk3zjFkn6716Fllul12anulN57WjCW8zqhBo7e-AQ3ul3...
+[    0.00s] [METHOD ] 
+============================================================
+[    0.00s] [METHOD ] Starting Method: Embedded Key Extraction
+[    0.00s] [METHOD ] Description: Attempts to extract and use the key embedded in the encrypted message
+[    0.00s] [METHOD ] ============================================================
+[    0.00s] [ATTEMPT] Attempt #1 | Method: Embedded Key | Key: Extracted from message | ❌ FAILED
+[    0.00s] [METHOD ] 
+============================================================
+[    0.00s] [METHOD ] Starting Method: Default System Key
+[    0.00s] [METHOD ] Description: Attempts decryption using the default system key
+[    0.00s] [METHOD ] ============================================================
+[    0.00s] [ATTEMPT] Attempt #2 | Method: Default Key | Key: tω$TjO|"+"Es^z$K | ❌ FAILED
+[    0.00s] [METHOD ] 
+============================================================
+[    0.00s] [METHOD ] Starting Method: Common Keys Database
+[    0.00s] [METHOD ] Description: Testing against a database of commonly used encryption keys
+[    0.00s] [METHOD ] ============================================================
+[    0.00s] [ATTEMPT] Attempt #3 | Method: Common Key | Key: Sequential hex: 0123456789ABCDEF0123456789ABCDEF | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #4 | Method: Common Key | Key: All A's: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #5 | Method: Common Key | Key: All zeros: 00000000000000000000000000000000 | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #6 | Method: Common Key | Key: All ones: 11111111111111111111111111111111 | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #7 | Method: Common Key | Key: Password pattern: password1234567890password123456 | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #8 | Method: Common Key | Key: App name: nullencrypternullencrypternullen | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #9 | Method: Common Key | Key: Admin pattern: admin123admin123admin123admin123 | ❌ FAILED
+[    0.00s] [ATTEMPT] Attempt #10 | Method: Common Key | Key: Keyboard pattern: qwertyuiopqwertyuiopqwertyuiopqw | ❌ FAILED
+[    0.00s] [METHOD ] 
+============================================================
+[    0.01s] [METHOD ] Starting Method: Pattern Analysis
+[    0.01s] [METHOD ] Description: Analyzes the encrypted message structure to generate potential keys
+[    0.01s] [METHOD ] ============================================================
+[    0.01s] [ATTEMPT] Attempt #11 | Method: Pattern Analysis | Key: SHA256 hash of encrypted text | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #12 | Method: Pattern Analysis | Key: MD5 hash of encrypted text | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #13 | Method: Pattern Analysis | Key: First 32 chars of encrypted text | ❌ FAILED
+[    0.01s] [METHOD ] 
+============================================================
+[    0.01s] [METHOD ] Starting Method: Dictionary Attack
+[    0.01s] [METHOD ] Description: Testing up to 1000 common words and phrases
+[    0.01s] [METHOD ] ============================================================
+[    0.01s] [ATTEMPT] Attempt #14 | Method: Dictionary | Key: Word: password | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #15 | Method: Dictionary | Key: Word: PASSWORD | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #16 | Method: Dictionary | Key: Word: Password | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #17 | Method: Dictionary | Key: Word: password123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #18 | Method: Dictionary | Key: Word: password2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #19 | Method: Dictionary | Key: Word: password2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #20 | Method: Dictionary | Key: Word: admin | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #21 | Method: Dictionary | Key: Word: ADMIN | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #22 | Method: Dictionary | Key: Word: Admin | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #23 | Method: Dictionary | Key: Word: admin123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #24 | Method: Dictionary | Key: Word: admin2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #25 | Method: Dictionary | Key: Word: admin2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #26 | Method: Dictionary | Key: Word: root | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #27 | Method: Dictionary | Key: Word: ROOT | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #28 | Method: Dictionary | Key: Word: Root | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #29 | Method: Dictionary | Key: Word: root123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #30 | Method: Dictionary | Key: Word: root2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #31 | Method: Dictionary | Key: Word: root2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #32 | Method: Dictionary | Key: Word: user | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #33 | Method: Dictionary | Key: Word: USER | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #34 | Method: Dictionary | Key: Word: User | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #35 | Method: Dictionary | Key: Word: user123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #36 | Method: Dictionary | Key: Word: user2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #37 | Method: Dictionary | Key: Word: user2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #38 | Method: Dictionary | Key: Word: test | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #39 | Method: Dictionary | Key: Word: TEST | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #40 | Method: Dictionary | Key: Word: Test | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #41 | Method: Dictionary | Key: Word: test123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #42 | Method: Dictionary | Key: Word: test2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #43 | Method: Dictionary | Key: Word: test2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #44 | Method: Dictionary | Key: Word: demo | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #45 | Method: Dictionary | Key: Word: DEMO | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #46 | Method: Dictionary | Key: Word: Demo | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #47 | Method: Dictionary | Key: Word: demo123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #48 | Method: Dictionary | Key: Word: demo2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #49 | Method: Dictionary | Key: Word: demo2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #50 | Method: Dictionary | Key: Word: secret | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #51 | Method: Dictionary | Key: Word: SECRET | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #52 | Method: Dictionary | Key: Word: Secret | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #53 | Method: Dictionary | Key: Word: secret123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #54 | Method: Dictionary | Key: Word: secret2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #55 | Method: Dictionary | Key: Word: secret2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #56 | Method: Dictionary | Key: Word: encryption | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #57 | Method: Dictionary | Key: Word: ENCRYPTION | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #58 | Method: Dictionary | Key: Word: Encryption | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #59 | Method: Dictionary | Key: Word: encryption123 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #60 | Method: Dictionary | Key: Word: encryption2024 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #61 | Method: Dictionary | Key: Word: encryption2025 | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #62 | Method: Dictionary | Key: Word: decryption | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #63 | Method: Dictionary | Key: Word: DECRYPTION | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #64 | Method: Dictionary | Key: Word: Decryption | ❌ FAILED
+[    0.01s] [ATTEMPT] Attempt #65 | Method: Dictionary | Key: Word: decryption123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #66 | Method: Dictionary | Key: Word: decryption2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #67 | Method: Dictionary | Key: Word: decryption2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #68 | Method: Dictionary | Key: Word: null | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #69 | Method: Dictionary | Key: Word: NULL | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #70 | Method: Dictionary | Key: Word: Null | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #71 | Method: Dictionary | Key: Word: null123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #72 | Method: Dictionary | Key: Word: null2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #73 | Method: Dictionary | Key: Word: null2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #74 | Method: Dictionary | Key: Word: encrypter | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #75 | Method: Dictionary | Key: Word: ENCRYPTER | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #76 | Method: Dictionary | Key: Word: Encrypter | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #77 | Method: Dictionary | Key: Word: encrypter123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #78 | Method: Dictionary | Key: Word: encrypter2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #79 | Method: Dictionary | Key: Word: encrypter2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #80 | Method: Dictionary | Key: Word: key | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #81 | Method: Dictionary | Key: Word: KEY | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #82 | Method: Dictionary | Key: Word: Key | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #83 | Method: Dictionary | Key: Word: key123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #84 | Method: Dictionary | Key: Word: key2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #85 | Method: Dictionary | Key: Word: key2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #86 | Method: Dictionary | Key: Word: master | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #87 | Method: Dictionary | Key: Word: MASTER | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #88 | Method: Dictionary | Key: Word: Master | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #89 | Method: Dictionary | Key: Word: master123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #90 | Method: Dictionary | Key: Word: master2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #91 | Method: Dictionary | Key: Word: master2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #92 | Method: Dictionary | Key: Word: default | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #93 | Method: Dictionary | Key: Word: DEFAULT | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #94 | Method: Dictionary | Key: Word: Default | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #95 | Method: Dictionary | Key: Word: default123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #96 | Method: Dictionary | Key: Word: default2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #97 | Method: Dictionary | Key: Word: default2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #98 | Method: Dictionary | Key: Word: system | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #99 | Method: Dictionary | Key: Word: SYSTEM | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #100 | Method: Dictionary | Key: Word: System | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #101 | Method: Dictionary | Key: Word: system123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #102 | Method: Dictionary | Key: Word: system2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #103 | Method: Dictionary | Key: Word: system2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #104 | Method: Dictionary | Key: Word: private | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #105 | Method: Dictionary | Key: Word: PRIVATE | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #106 | Method: Dictionary | Key: Word: Private | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #107 | Method: Dictionary | Key: Word: private123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #108 | Method: Dictionary | Key: Word: private2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #109 | Method: Dictionary | Key: Word: private2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #110 | Method: Dictionary | Key: Word: public | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #111 | Method: Dictionary | Key: Word: PUBLIC | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #112 | Method: Dictionary | Key: Word: Public | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #113 | Method: Dictionary | Key: Word: public123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #114 | Method: Dictionary | Key: Word: public2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #115 | Method: Dictionary | Key: Word: public2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #116 | Method: Dictionary | Key: Word: secure | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #117 | Method: Dictionary | Key: Word: SECURE | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #118 | Method: Dictionary | Key: Word: Secure | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #119 | Method: Dictionary | Key: Word: secure123 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #120 | Method: Dictionary | Key: Word: secure2024 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #121 | Method: Dictionary | Key: Word: secure2025 | ❌ FAILED
+[    0.02s] [ATTEMPT] Attempt #122 | Method: Dictionary | Key: Word: crypto | ❌ FAILED
+[    0.03s] [ATTEMPT] Attempt #123 | Method: Dictionary | Key: Word: CRYPTO | ❌ FAILED
+[    0.03s] [ATTEMPT] Attempt #124 | Method: Dictionary | Key: Word: Crypto | ❌ FAILED
+[    0.03s] [ATTEMPT] Attempt #125 | Method: Dictionary | Key: Word: crypto123 | ❌ FAILED
+[    0.03s] [ATTEMPT] Attempt #126 | Method: Dictionary | Key: Word: crypto2024 | ❌ FAILED
+[    0.03s] [ATTEMPT] Attempt #127 | Method: Dictionary | Key: Word: crypto2025 | ❌ FAILED
+[    0.03s] [ATTEMPT] Attempt #128 | Method: Dictionary | Key: Word: android | ❌ FAILED
+[    0.03s] [ATTEMPT] Attempt #129 | Method: Dictionary | Key: Word: ANDROID | ❌ FAILED
+[    0.03s] [ATTEMPT] Attempt #130 | Method: Dictionary | Key: Word: Android | ❌ FAILED
+[    0.03s] [ATTEMPT] Attempt #131 | Method: Dictionary | Key: Word: android123 | ❌ FAILED
+[    0.03s] [ATTEMPT] Attempt #132 | Method: Dictionary | Key: Word: android2024 | ❌ FAILED
+[    0.03s] [ATTEMPT] Attempt #133 | Method: Dictionary | Key: Word: android2025 | ❌ FAILED
+[    0.03s] [METHOD ] 
+============================================================
+[    0.03s] [METHOD ] Starting Method: Brute Force (PARALLEL)
+[    0.03s] [METHOD ] Description: Attempting up to 1 keys, starting with **ñ**, using multiple CPU cores.
+[    0.03s] [METHOD ] ============================================================
+[    0.03s] [INFO   ] Starting parallel execution with 12 cores and 299.97s timeout...
+[    0.08s] [METHOD ] 
+============================================================
+[    0.08s] [METHOD ] Starting Method: Date-Based Keys
+[    0.08s] [METHOD ] Description: Testing keys based on common date formats (e.g., year, date, month)
+[    0.08s] [METHOD ] ============================================================
+[    0.08s] [ATTEMPT] Attempt #135 | Method: Date Key | Key: Pattern: 2025 | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #136 | Method: Date Key | Key: Pattern: 2024 | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #137 | Method: Date Key | Key: Pattern: 2020 | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #138 | Method: Date Key | Key: Pattern: 2021 | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #139 | Method: Date Key | Key: Pattern: 2022 | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #140 | Method: Date Key | Key: Pattern: 2023 | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #141 | Method: Date Key | Key: Pattern: 2024 | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #142 | Method: Date Key | Key: Pattern: 1990 | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #143 | Method: Date Key | Key: Pattern: 0101 | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #144 | Method: Date Key | Key: Pattern: 1231 | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #145 | Method: Date Key | Key: Pattern: 1111 | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #146 | Method: Date Key | Key: Pattern: 0000 | ❌ FAILED
+[    0.08s] [METHOD ] 
+============================================================
+[    0.08s] [METHOD ] Starting Method: Sequential Patterns
+[    0.08s] [METHOD ] Description: Testing simple, repeating character patterns (a, b, 1, 2, ...)
+[    0.08s] [METHOD ] ============================================================
+[    0.08s] [ATTEMPT] Attempt #147 | Method: Sequential Pattern | Key: 1-8 repeating | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #148 | Method: Sequential Pattern | Key: A,B,C,D blocks | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #149 | Method: Sequential Pattern | Key: Special chars repeating | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #150 | Method: Sequential Pattern | Key: Reverse alphabet | ❌ FAILED
+[    0.08s] [METHOD ] 
+============================================================
+[    0.08s] [METHOD ] Starting Method: Key Rotation/Shift
+[    0.08s] [METHOD ] Description: Tests simple 1-byte shifts or rotations of the Default Key and Common Keys
+[    0.08s] [METHOD ] ============================================================
+[    0.08s] [ATTEMPT] Attempt #151 | Method: Key Rotation | Key: Shifted Default Key (1-byte left) | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #152 | Method: Key Rotation | Key: Shifted Default Key (1-byte right) | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #153 | Method: Key Rotation | Key: Shifted Common Key 1 (1-byte left) | ❌ FAILED
+[    0.08s] [ATTEMPT] Attempt #154 | Method: Key Rotation | Key: Shifted Common Key 1 (1-byte right) | ❌ FAILED
+[    0.08s] [FAILED ] 
+❌ All methods exhausted - Decryption failed
+
+================================================================================
+DECRYPTION SUMMARY
+================================================================================
+Status: FAILED ❌
+Total Attempts: 154
+Methods Tried: 9
+Time Elapsed: 0.08 seconds (0.00 minutes)
+
+Methods Attempted:
+  1. Embedded Key Extraction
+  2. Default System Key
+  3. Common Keys Database
+  4. Pattern Analysis
+  5. Dictionary Attack
+  6. Brute Force (PARALLEL)
+  7. Date-Based Keys
+  8. Sequential Patterns
+  9. Key Rotation/Shift
+
+================================================================================
+Finished: 2025-12-03 16:30:27
+================================================================================
